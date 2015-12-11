@@ -24,9 +24,10 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    _popBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    _popBtn = [[UIButton alloc] init];
     [self.view addSubview:_popBtn];
     [_popBtn setTitle:@"返回" forState:UIControlStateNormal];
+    [_popBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [_popBtn addTarget:self action:@selector(pop:) forControlEvents:UIControlEventTouchUpInside];
     
     [_popBtn mas_makeConstraints:^(MASConstraintMaker *make) {
