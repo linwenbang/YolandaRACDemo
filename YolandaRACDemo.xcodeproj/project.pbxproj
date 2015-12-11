@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCFA79CA988ADAE105F73AA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC03B7F17F1BB8F0CF7692B8 /* libPods.a */; };
+		574D88E11C1ABCB0002F35EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D88E01C1ABCB0002F35EC /* main.m */; };
+		574D88E41C1ABCB0002F35EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D88E31C1ABCB0002F35EC /* AppDelegate.m */; };
+		574D88EC1C1ABCB1002F35EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574D88EB1C1ABCB1002F35EC /* Assets.xcassets */; };
+		574D88EF1C1ABCB1002F35EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574D88ED1C1ABCB1002F35EC /* LaunchScreen.storyboard */; };
+		574D88FA1C1ABCB1002F35EC /* YolandaRACDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D88F91C1ABCB1002F35EC /* YolandaRACDemoTests.m */; };
+		574D89051C1ABCB1002F35EC /* YolandaRACDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D89041C1ABCB1002F35EC /* YolandaRACDemoUITests.m */; };
+		574D89141C1ABF51002F35EC /* ChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D89131C1ABF51002F35EC /* ChoiceViewController.m */; };
+		574D89171C1ABF65002F35EC /* ChoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D89161C1ABF65002F35EC /* ChoiceView.m */; };
+		574D891A1C1ABF7A002F35EC /* ChoiceViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D89191C1ABF7A002F35EC /* ChoiceViewModel.m */; };
+		574D891D1C1ACE08002F35EC /* AfterChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D891C1C1ACE08002F35EC /* AfterChoiceViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		574D88F61C1ABCB1002F35EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574D88D41C1ABCAF002F35EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574D88DB1C1ABCB0002F35EC;
+			remoteInfo = YolandaRACDemo;
+		};
+		574D89011C1ABCB1002F35EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574D88D41C1ABCAF002F35EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574D88DB1C1ABCB0002F35EC;
+			remoteInfo = YolandaRACDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		574D88DC1C1ABCB0002F35EC /* YolandaRACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YolandaRACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		574D88E01C1ABCB0002F35EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		574D88E21C1ABCB0002F35EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		574D88E31C1ABCB0002F35EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		574D88EB1C1ABCB1002F35EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		574D88EE1C1ABCB1002F35EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		574D88F01C1ABCB1002F35EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574D88F51C1ABCB1002F35EC /* YolandaRACDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YolandaRACDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		574D88F91C1ABCB1002F35EC /* YolandaRACDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YolandaRACDemoTests.m; sourceTree = "<group>"; };
+		574D88FB1C1ABCB1002F35EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574D89001C1ABCB1002F35EC /* YolandaRACDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YolandaRACDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		574D89041C1ABCB1002F35EC /* YolandaRACDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YolandaRACDemoUITests.m; sourceTree = "<group>"; };
+		574D89061C1ABCB2002F35EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574D89121C1ABF51002F35EC /* ChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceViewController.h; sourceTree = "<group>"; };
+		574D89131C1ABF51002F35EC /* ChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceViewController.m; sourceTree = "<group>"; };
+		574D89151C1ABF65002F35EC /* ChoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceView.h; sourceTree = "<group>"; };
+		574D89161C1ABF65002F35EC /* ChoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceView.m; sourceTree = "<group>"; };
+		574D89181C1ABF7A002F35EC /* ChoiceViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceViewModel.h; sourceTree = "<group>"; };
+		574D89191C1ABF7A002F35EC /* ChoiceViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceViewModel.m; sourceTree = "<group>"; };
+		574D891B1C1ACE08002F35EC /* AfterChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfterChoiceViewController.h; sourceTree = "<group>"; };
+		574D891C1C1ACE08002F35EC /* AfterChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfterChoiceViewController.m; sourceTree = "<group>"; };
+		954A44B09EF708C7CBF4127B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BC03B7F17F1BB8F0CF7692B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2834DB06908FF40313A6A49 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		574D88D91C1ABCB0002F35EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCFA79CA988ADAE105F73AA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574D88F21C1ABCB1002F35EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574D88FD1C1ABCB1002F35EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EA84FF5E1020C35FD3DCF4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC03B7F17F1BB8F0CF7692B8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CF2E572626748E33BBD9147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2834DB06908FF40313A6A49 /* Pods.debug.xcconfig */,
+				954A44B09EF708C7CBF4127B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		574D88D31C1ABCAF002F35EC = {
+			isa = PBXGroup;
+			children = (
+				574D88DE1C1ABCB0002F35EC /* YolandaRACDemo */,
+				574D88F81C1ABCB1002F35EC /* YolandaRACDemoTests */,
+				574D89031C1ABCB1002F35EC /* YolandaRACDemoUITests */,
+				574D88DD1C1ABCB0002F35EC /* Products */,
+				4CF2E572626748E33BBD9147 /* Pods */,
+				2EA84FF5E1020C35FD3DCF4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		574D88DD1C1ABCB0002F35EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574D88DC1C1ABCB0002F35EC /* YolandaRACDemo.app */,
+				574D88F51C1ABCB1002F35EC /* YolandaRACDemoTests.xctest */,
+				574D89001C1ABCB1002F35EC /* YolandaRACDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574D88DE1C1ABCB0002F35EC /* YolandaRACDemo */ = {
+			isa = PBXGroup;
+			children = (
+				574D88E21C1ABCB0002F35EC /* AppDelegate.h */,
+				574D88E31C1ABCB0002F35EC /* AppDelegate.m */,
+				574D88EB1C1ABCB1002F35EC /* Assets.xcassets */,
+				574D88ED1C1ABCB1002F35EC /* LaunchScreen.storyboard */,
+				574D88F01C1ABCB1002F35EC /* Info.plist */,
+				574D88DF1C1ABCB0002F35EC /* Supporting Files */,
+				574D89121C1ABF51002F35EC /* ChoiceViewController.h */,
+				574D89131C1ABF51002F35EC /* ChoiceViewController.m */,
+				574D89151C1ABF65002F35EC /* ChoiceView.h */,
+				574D89161C1ABF65002F35EC /* ChoiceView.m */,
+				574D89181C1ABF7A002F35EC /* ChoiceViewModel.h */,
+				574D89191C1ABF7A002F35EC /* ChoiceViewModel.m */,
+				574D891B1C1ACE08002F35EC /* AfterChoiceViewController.h */,
+				574D891C1C1ACE08002F35EC /* AfterChoiceViewController.m */,
+			);
+			path = YolandaRACDemo;
+			sourceTree = "<group>";
+		};
+		574D88DF1C1ABCB0002F35EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				574D88E01C1ABCB0002F35EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		574D88F81C1ABCB1002F35EC /* YolandaRACDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				574D88F91C1ABCB1002F35EC /* YolandaRACDemoTests.m */,
+				574D88FB1C1ABCB1002F35EC /* Info.plist */,
+			);
+			path = YolandaRACDemoTests;
+			sourceTree = "<group>";
+		};
+		574D89031C1ABCB1002F35EC /* YolandaRACDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				574D89041C1ABCB1002F35EC /* YolandaRACDemoUITests.m */,
+				574D89061C1ABCB2002F35EC /* Info.plist */,
+			);
+			path = YolandaRACDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		574D88DB1C1ABCB0002F35EC /* YolandaRACDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574D89091C1ABCB2002F35EC /* Build configuration list for PBXNativeTarget "YolandaRACDemo" */;
+			buildPhases = (
+				ABBF8BA30B15A6AA6E7FF9D7 /* Check Pods Manifest.lock */,
+				574D88D81C1ABCB0002F35EC /* Sources */,
+				574D88D91C1ABCB0002F35EC /* Frameworks */,
+				574D88DA1C1ABCB0002F35EC /* Resources */,
+				71E630BDED5AAEA751D7C918 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YolandaRACDemo;
+			productName = YolandaRACDemo;
+			productReference = 574D88DC1C1ABCB0002F35EC /* YolandaRACDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		574D88F41C1ABCB1002F35EC /* YolandaRACDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574D890C1C1ABCB2002F35EC /* Build configuration list for PBXNativeTarget "YolandaRACDemoTests" */;
+			buildPhases = (
+				574D88F11C1ABCB1002F35EC /* Sources */,
+				574D88F21C1ABCB1002F35EC /* Frameworks */,
+				574D88F31C1ABCB1002F35EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574D88F71C1ABCB1002F35EC /* PBXTargetDependency */,
+			);
+			name = YolandaRACDemoTests;
+			productName = YolandaRACDemoTests;
+			productReference = 574D88F51C1ABCB1002F35EC /* YolandaRACDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		574D88FF1C1ABCB1002F35EC /* YolandaRACDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574D890F1C1ABCB2002F35EC /* Build configuration list for PBXNativeTarget "YolandaRACDemoUITests" */;
+			buildPhases = (
+				574D88FC1C1ABCB1002F35EC /* Sources */,
+				574D88FD1C1ABCB1002F35EC /* Frameworks */,
+				574D88FE1C1ABCB1002F35EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574D89021C1ABCB1002F35EC /* PBXTargetDependency */,
+			);
+			name = YolandaRACDemoUITests;
+			productName = YolandaRACDemoUITests;
+			productReference = 574D89001C1ABCB1002F35EC /* YolandaRACDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		574D88D41C1ABCAF002F35EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = yolanda;
+				TargetAttributes = {
+					574D88DB1C1ABCB0002F35EC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					574D88F41C1ABCB1002F35EC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 574D88DB1C1ABCB0002F35EC;
+					};
+					574D88FF1C1ABCB1002F35EC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 574D88DB1C1ABCB0002F35EC;
+					};
+				};
+			};
+			buildConfigurationList = 574D88D71C1ABCB0002F35EC /* Build configuration list for PBXProject "YolandaRACDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 574D88D31C1ABCAF002F35EC;
+			productRefGroup = 574D88DD1C1ABCB0002F35EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				574D88DB1C1ABCB0002F35EC /* YolandaRACDemo */,
+				574D88F41C1ABCB1002F35EC /* YolandaRACDemoTests */,
+				574D88FF1C1ABCB1002F35EC /* YolandaRACDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		574D88DA1C1ABCB0002F35EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574D88EF1C1ABCB1002F35EC /* LaunchScreen.storyboard in Resources */,
+				574D88EC1C1ABCB1002F35EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574D88F31C1ABCB1002F35EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574D88FE1C1ABCB1002F35EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71E630BDED5AAEA751D7C918 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABBF8BA30B15A6AA6E7FF9D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		574D88D81C1ABCB0002F35EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574D88E41C1ABCB0002F35EC /* AppDelegate.m in Sources */,
+				574D89171C1ABF65002F35EC /* ChoiceView.m in Sources */,
+				574D89141C1ABF51002F35EC /* ChoiceViewController.m in Sources */,
+				574D891A1C1ABF7A002F35EC /* ChoiceViewModel.m in Sources */,
+				574D891D1C1ACE08002F35EC /* AfterChoiceViewController.m in Sources */,
+				574D88E11C1ABCB0002F35EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574D88F11C1ABCB1002F35EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574D88FA1C1ABCB1002F35EC /* YolandaRACDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574D88FC1C1ABCB1002F35EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574D89051C1ABCB1002F35EC /* YolandaRACDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		574D88F71C1ABCB1002F35EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574D88DB1C1ABCB0002F35EC /* YolandaRACDemo */;
+			targetProxy = 574D88F61C1ABCB1002F35EC /* PBXContainerItemProxy */;
+		};
+		574D89021C1ABCB1002F35EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574D88DB1C1ABCB0002F35EC /* YolandaRACDemo */;
+			targetProxy = 574D89011C1ABCB1002F35EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		574D88ED1C1ABCB1002F35EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574D88EE1C1ABCB1002F35EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		574D89071C1ABCB2002F35EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574D89081C1ABCB2002F35EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574D890A1C1ABCB2002F35EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2834DB06908FF40313A6A49 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+				);
+				INFOPLIST_FILE = YolandaRACDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yolanda.YolandaRACDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		574D890B1C1ABCB2002F35EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954A44B09EF708C7CBF4127B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+				);
+				INFOPLIST_FILE = YolandaRACDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yolanda.YolandaRACDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		574D890D1C1ABCB2002F35EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YolandaRACDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yolanda.YolandaRACDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YolandaRACDemo.app/YolandaRACDemo";
+			};
+			name = Debug;
+		};
+		574D890E1C1ABCB2002F35EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YolandaRACDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yolanda.YolandaRACDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YolandaRACDemo.app/YolandaRACDemo";
+			};
+			name = Release;
+		};
+		574D89101C1ABCB2002F35EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YolandaRACDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yolanda.YolandaRACDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YolandaRACDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		574D89111C1ABCB2002F35EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YolandaRACDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yolanda.YolandaRACDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YolandaRACDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		574D88D71C1ABCB0002F35EC /* Build configuration list for PBXProject "YolandaRACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574D89071C1ABCB2002F35EC /* Debug */,
+				574D89081C1ABCB2002F35EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574D89091C1ABCB2002F35EC /* Build configuration list for PBXNativeTarget "YolandaRACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574D890A1C1ABCB2002F35EC /* Debug */,
+				574D890B1C1ABCB2002F35EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574D890C1C1ABCB2002F35EC /* Build configuration list for PBXNativeTarget "YolandaRACDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574D890D1C1ABCB2002F35EC /* Debug */,
+				574D890E1C1ABCB2002F35EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574D890F1C1ABCB2002F35EC /* Build configuration list for PBXNativeTarget "YolandaRACDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574D89101C1ABCB2002F35EC /* Debug */,
+				574D89111C1ABCB2002F35EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 574D88D41C1ABCAF002F35EC /* Project object */;
+}
